@@ -27,7 +27,7 @@ export default function RootLayout({
       <body className="bg-background text-foreground">
         <header>
           <nav className="w-full flex justify-center border-b border-b-foreground/10 h-16">
-            <div className="w-full max-w-4xl flex justify-between items-center p-3 text-sm">
+            <div className="w-full max-w-screen-xl flex justify-between items-center p-3 text-sm">
               <a
                 href="https://www.inngest.com"
                 target="_blank"

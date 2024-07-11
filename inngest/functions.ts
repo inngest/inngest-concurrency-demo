@@ -8,10 +8,10 @@ export const multiTenantConcurrency = inngest.createFunction(
       {
         limit: 1,
         // Limit 1 concurrent run per user
-        // key: 'event.data.user_slug',
+        key: 'event.data.user_slug',
       },
       // {
-      //   limit: 10,
+      //   limit: 20,
       // },
     ],
   },
